@@ -18,16 +18,18 @@ section:not(:first-child) .slide{animation:slide-reveal linear both;animation-ti
 }}
 @media(max-width:600px){main{margin:0;padding:0}section{margin:0}.bar{padding:12px 14px}}
 @media(prefers-reduced-motion:reduce){body{transition:none}}
-</style></head><body><header><div class="bar"><a class="brand" href="#slide-1">КАТАРСИС ФЕСТ <small>Для артистов · 2026</small></a><nav aria-label="Основная навигация"><a href="#slide-8">Контакты</a><a class="download" href="katarsis-fest.pdf" download>Скачать PDF ↓</a></nav></div></header><main aria-label="Презентация фестиваля"><section id="slide-1" aria-label="Катарсис Фест — для артистов"><div class="slide"><img src="slide-1.jpg" width="2000" height="1125" alt="Катарсис Фест — для артистов" fetchpriority="high" decoding="async"></div><p class="sr-only">КАТАРСИСFEST
+
+html,body{height:100%;overflow:hidden}body{background:#f7f5f1!important;display:flex;flex-direction:column}header{position:relative;flex:none}main{position:relative;max-width:none;width:100%;flex:1;min-height:0;margin:0;padding:0;overflow:hidden}main section{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .85s ease,transform .95s cubic-bezier(.2,.7,.2,1),visibility .95s;transform:translateY(12px) scale(.985);margin:0}main section.active{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0) scale(1);z-index:1}main section .slide{width:min(100%,calc((100dvh - 150px)*16/9));animation:none!important;filter:none!important;transform:none!important;flex:none}footer{display:none}.player-controls{flex:none;display:flex;align-items:center;justify-content:center;gap:24px;background:#f7f5f1;color:#252124;padding:12px 16px max(12px,env(safe-area-inset-bottom));min-height:66px}.player-controls button{font:inherit;font-size:22px;width:44px;height:40px;background:transparent;border:1px solid #c5bfc1;border-radius:50%;color:inherit;cursor:pointer}.player-controls button:disabled{opacity:.3;cursor:default}.player-controls button:focus-visible{outline:3px solid #bd0830;outline-offset:3px}.counter{font-size:14px;min-width:55px;text-align:center;font-variant-numeric:tabular-nums}@media(max-width:600px){main{margin:0}main section .slide{width:min(100%,calc((100dvh - 145px)*16/9))}}@media(prefers-reduced-motion:reduce){main section{transition:none;transform:none}}
+</style></head><body><header><div class="bar"><a class="brand" href="#slide-1">КАТАРСИС ФЕСТ <small>Для артистов · 2026</small></a><nav aria-label="Основная навигация"><a href="#slide-8">Контакты</a><a class="download" href="katarsis-fest.pdf" download>Скачать PDF ↓</a></nav></div></header><main aria-label="Презентация фестиваля"><section class="active" id="slide-1" aria-label="Катарсис Фест — для артистов"><div class="slide"><img src="slide-1.jpg" width="2000" height="1125" alt="Катарсис Фест — для артистов" fetchpriority="high" decoding="async"></div><p class="sr-only">КАТАРСИСFEST
 KATARSIS FEST 2026
-ДЛЯАРТИСТОВ</p></section><section id="slide-2" aria-label="Кто мы"><div class="slide"><img src="slide-2.jpg" width="2000" height="1125" alt="Кто мы" loading="lazy" decoding="async"></div><p class="sr-only">КТО  МЫ ?
+ДЛЯАРТИСТОВ</p></section><section id="slide-2" aria-label="Кто мы"><div class="slide"><img src="slide-2.jpg" width="2000" height="1125" alt="Кто мы" loading="eager" decoding="async"></div><p class="sr-only">КТО  МЫ ?
 « КАТАРСИС  ФЕСТ » - ЭТО  OUTDOOR
 ФЕСТИВАЛЬ  НОВОГО  ИСКУССТВА ,
 СОЗДАННЫЙ  ПРЕДСТАВИТЕЛЯМИ
 КИНОИНДУСТРИИ  И  ИВЕНТ  СФЕРЫ  – ТЕХ КТО  ВЛЮБЛЕН  В КУЛЬТУРУ . 
 KATARSIS FEST 2026
 ЧЕРЕЗ  МУЗЫКУ  | КИНО  | ЛИТЕРАТУРУ  |ART- ИСКУССТВО  | СТИЛЬ
-КАК  ИМЕННО  ?</p></section><section id="slide-3" aria-label="Наша аудитория"><div class="slide"><img src="slide-3.jpg" width="2000" height="1125" alt="Наша аудитория" loading="lazy" decoding="async"></div><p class="sr-only">КАКАЯ  У  НАС АУДИТОРИЯ  ?
+КАК  ИМЕННО  ?</p></section><section id="slide-3" aria-label="Наша аудитория"><div class="slide"><img src="slide-3.jpg" width="2000" height="1125" alt="Наша аудитория" loading="eager" decoding="async"></div><p class="sr-only">КАКАЯ  У  НАС АУДИТОРИЯ  ?
 KATARSIS FEST 2026
 ГЛАВНАЯ  АУДИТОРИЯ :
 МОЛОДЫЕ  ЛЮДИ  16–30 ЛЕТ ИЗ
@@ -43,7 +45,7 @@ KATARSIS FEST 2026
 АКТИВНАЯ  DIGITAL- АУДИТОРИЯ ,
 КОТОРАЯ  СЛЕДИТ  ЗА  ЛОКАЛЬНЫМИ
 АРТИСТАМИ , ТРЕНДАМИ , МОДОЙ  И
-НОВЫМИ  КУЛЬТУРНЫМИ  ПРОЕКТАМИ .</p></section><section id="slide-4" aria-label="Программа"><div class="slide"><img src="slide-4.jpg" width="2000" height="1125" alt="Программа" loading="lazy" decoding="async"></div><p class="sr-only">ПРОГРАММА
+НОВЫМИ  КУЛЬТУРНЫМИ  ПРОЕКТАМИ .</p></section><section id="slide-4" aria-label="Программа"><div class="slide"><img src="slide-4.jpg" width="2000" height="1125" alt="Программа" loading="eager" decoding="async"></div><p class="sr-only">ПРОГРАММА
 KATARSIS FEST 2026
 КИНОПОКАЗЫ
 ПОБЕДИТЕЛЕЙ
@@ -56,7 +58,7 @@ KATARSIS FEST 2026
 ОДЕЖДЫ  И  АКСЕССУАРОВ ,
 ПРОЕКТЫ  ПРЕДСТАВИТЕЛЕЙ
 МОСКОВСКОЙ  КРЕАТИВНОЙ
-СРЕДЫ</p></section><section id="slide-5" aria-label="Звук"><div class="slide"><img src="slide-5.jpg" width="2000" height="1125" alt="Звук" loading="lazy" decoding="async"></div><p class="sr-only">2026
+СРЕДЫ</p></section><section id="slide-5" aria-label="Звук"><div class="slide"><img src="slide-5.jpg" width="2000" height="1125" alt="Звук" loading="eager" decoding="async"></div><p class="sr-only">2026
 ЧТО  МЫ  МОЖЕМПРЕДЛОЖИТЬ ?
 ЧИСТЫЙ , МОЩНЫЙ  И  ОБЪЕМНЫЙ
 ЗВУК , КОТОРЫЙ  ОДИНАКОВО
@@ -69,7 +71,7 @@ AUDIO LA8 ( ЛИНЕЙНЫЕ  МАССИВЫ )
 И  LA8 SUB ( НИЗКОЧАСТОТНЫЕ ) —
 ТОЧНОСТЬ  В  ДЕТАЛЯХ , ГЛУБОКИЙ
 БАС  И  ЭНЕРГИЯ  ЖИВОГО
-ПРИСУТСТВИЯ .</p></section><section id="slide-6" aria-label="Съёмка выступления"><div class="slide"><img src="slide-6.jpg" width="2000" height="1125" alt="Съёмка выступления" loading="lazy" decoding="async"></div><p class="sr-only">2026
+ПРИСУТСТВИЯ .</p></section><section id="slide-6" aria-label="Съёмка выступления"><div class="slide"><img src="slide-6.jpg" width="2000" height="1125" alt="Съёмка выступления" loading="eager" decoding="async"></div><p class="sr-only">2026
 ЧТО  МЫ  МОЖЕМПРЕДЛОЖИТЬ ?
 ВСЯ  КОМАНДА  ОРГАНИЗАТОРОВ  ФЕСТИВАЛЯ  - ДЕЙСТВУЮЩИЕ
 РАБОТНИКИ  В  КИНО  И  ИВЕНТ  СФЕРЫ . У  НАС  ЕСТЬ  СВОЯ
@@ -78,7 +80,7 @@ AUDIO LA8 ( ЛИНЕЙНЫЕ  МАССИВЫ )
 МЫ  МОЖЕМ  СДЕЛАТЬ  ЛАЙВ  ЗАПИСЬ  ВЫСТУПЛЕНИЯ И
 СМОНТИРОВАТЬ  ПО  ВАШЕМУ  ТЗ .
 ЛЮБАЯ  ТВОРЧЕСКАЯ  ЗАДУМКА МОЖЕТ  ПРЕВРАТИТЬСЯ  В  ВАШ
-КОНТЕНТ, СОЗДАННЫЙ  КОМАНДОЙ  КАТАРСИС  ФЕСТА . </p></section><section id="slide-7" aria-label="Визуал и локация"><div class="slide"><img src="slide-7.jpg" width="2000" height="1125" alt="Визуал и локация" loading="lazy" decoding="async"><a class="hotspot" href="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" aria-label="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" style="left:63.626%;top:78.838%;width:17.187%;height:5.000%"></a><a class="hotspot" href="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" aria-label="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" style="left:63.626%;top:79.046%;width:19.115%;height:4.630%"></a></div><p class="sr-only">В И З У А Л  
+КОНТЕНТ, СОЗДАННЫЙ  КОМАНДОЙ  КАТАРСИС  ФЕСТА . </p></section><section id="slide-7" aria-label="Визуал и локация"><div class="slide"><img src="slide-7.jpg" width="2000" height="1125" alt="Визуал и локация" loading="eager" decoding="async"><a class="hotspot" href="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" aria-label="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" style="left:63.626%;top:78.838%;width:17.187%;height:5.000%"></a><a class="hotspot" href="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" aria-label="https://yandex.ru/maps?si=kau2yn1q7t4urc53eb8da6bxjc&amp;whatshere%5Bpoint%5D=37.891164,55.640522&amp;whatshere%5Bzoom%5D=16" style="left:63.626%;top:79.046%;width:19.115%;height:4.630%"></a></div><p class="sr-only">В И З У А Л  
 И  Л О К А Ц И Я
 KATARSIS FEST 2026
 « КАТАРСИС  ФЕСТ » — ФЕСТИВАЛЬ
@@ -94,7 +96,7 @@ KATARSIS FEST 2026
 ПЛОЩАДКА  НАХОДИТСЯ
 НЕДАЛЕКО  ОТ  ЛЕСОПАРКА
 “ ДЗЕРЖИНСКИЙ ”
-ТОЧКА  НА  КАРТЕ</p></section><section id="slide-8" aria-label="Контакты"><div class="slide"><img src="slide-8.jpg" width="2000" height="1125" alt="Контакты" loading="lazy" decoding="async"></div><p class="sr-only">KATARSIS FEST 2026
+ТОЧКА  НА  КАРТЕ</p></section><section id="slide-8" aria-label="Контакты"><div class="slide"><img src="slide-8.jpg" width="2000" height="1125" alt="Контакты" loading="eager" decoding="async"></div><p class="sr-only">KATARSIS FEST 2026
 В  Н А Ш И Х  П Л А Н А Х  В Ы Р А С Т И  И  С Т А Т Ь  Б О Л Ь Ш Е ,
 Ч Е М  П Р О С Т О  Ф Е С Т И В А Л Ь .  В Ы  М О Ж Е Т Е
 З А П Р О С И Т Ь  С П И С О К  Т Е Х Н И Ч Е С К О Г О
@@ -115,12 +117,16 @@ K A T A R S I S F E S T @ Y A N D E X . R U
 А Р Т Е М И Й  М А Г Е Р О В 89270280101
 @  M I L A C H I P A
 @ M A G E R O V _ S O U N D
-8 9 8 5 3 5 8 3 0 4 2</p></section></main><footer><a href="mailto:katarsisfest@yandex.ru">katarsisfest@yandex.ru</a><a href="https://t.me/ON_NEVZOROV" target="_blank" rel="noopener">Денис Невзоров · Telegram ↗</a><p>Катарсис Фест · 2026</p></footer><script>
+8 9 8 5 3 5 8 3 0 4 2</p></section></main><div class="player-controls" aria-label="Перелистывание презентации"><button id="prev" aria-label="Предыдущий слайд" disabled>‹</button><span class="counter" id="counter" aria-live="polite">1 / 8</span><button id="next" aria-label="Следующий слайд">›</button></div><footer><a href="mailto:katarsisfest@yandex.ru">katarsisfest@yandex.ru</a><a href="https://t.me/ON_NEVZOROV" target="_blank" rel="noopener">Денис Невзоров · Telegram ↗</a><p>Катарсис Фест · 2026</p></footer><script>
 (()=>{
-const colors=['#bd0830','#47809e','#668628','#bb4e00','#bd0830','#bd0830','#bd0830','#668628'];
-const sections=[...document.querySelectorAll('main section')];
-if(!('IntersectionObserver' in window))return;
-const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting)document.body.style.backgroundColor=colors[sections.indexOf(entry.target)];}},{rootMargin:'-35% 0px -35% 0px',threshold:0});
-sections.forEach(section=>observer.observe(section));
+const slides=[...document.querySelectorAll('main section')],prev=document.getElementById('prev'),next=document.getElementById('next'),counter=document.getElementById('counter');let current=0,lastWheel=0,startX=0,startY=0;
+function show(index){index=Math.max(0,Math.min(slides.length-1,index));current=index;slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.inert=i!==index;s.setAttribute('aria-hidden',String(i!==index))});prev.disabled=index===0;next.disabled=index===slides.length-1;counter.textContent=(index+1)+' / '+slides.length;history.replaceState(null,'','#slide-'+(index+1));}
+prev.addEventListener('click',()=>show(current-1));next.addEventListener('click',()=>show(current+1));
+document.addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;if(['ArrowRight','ArrowDown','PageDown'].includes(e.key)){e.preventDefault();show(current+1)}if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();show(current-1)}if(e.key==='Home'){e.preventDefault();show(0)}if(e.key==='End'){e.preventDefault();show(slides.length-1)}});
+document.querySelector('main').addEventListener('wheel',e=>{if(e.ctrlKey||Math.abs(e.deltaY)<12)return;e.preventDefault();if(Date.now()-lastWheel<1050)return;lastWheel=Date.now();show(current+(e.deltaY>0?1:-1))},{passive:false});
+document.querySelector('main').addEventListener('touchstart',e=>{if(e.touches.length!==1)return;startX=e.touches[0].clientX;startY=e.touches[0].clientY},{passive:true});
+document.querySelector('main').addEventListener('touchend',e=>{if(e.changedTouches.length!==1)return;const dx=e.changedTouches[0].clientX-startX,dy=e.changedTouches[0].clientY-startY;if(Math.max(Math.abs(dx),Math.abs(dy))<55)return;show(current+((Math.abs(dx)>Math.abs(dy)?dx:dy)<0?1:-1))},{passive:true});
+document.querySelectorAll('a[href^="#slide-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();show(Number(a.getAttribute('href').split('-').pop())-1)}));
+show((Number(location.hash.replace('#slide-',''))||1)-1);
 })();
 </script></body></html>
